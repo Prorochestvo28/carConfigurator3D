@@ -5,7 +5,7 @@ import { CarScene } from '@/components/CarModel/CarScene'
 import { ConfigPanel } from '@/components/ConfigPanel/ConfigPanel'
 import { Splash } from '@/components/Splash'
 
-const MODEL_URL = '/models/car.glb'
+const MODEL_URL = `${import.meta.env.BASE_URL}models/car.glb`
 const SHEEN_DURATION_MS = 2100
 const SHEEN_CYCLES = 2
 

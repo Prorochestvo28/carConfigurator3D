@@ -5,7 +5,7 @@ import { mergeVertices } from 'three/examples/jsm/utils/BufferGeometryUtils.js'
 import { useConfig } from '@/context/ConfigContext'
 import { BRAKE_FINISH, MODEL_PARTS } from '@/types/config'
 
-const MODEL_URL = '/models/car.glb'
+const MODEL_URL = `${import.meta.env.BASE_URL}models/car.glb`
 const TARGET_LENGTH = 4.8
 
 type LoadedCarProps = {
